@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_call_white_24dp"
+        android:title="@string/action_call"
+        android:onClick="notImplemented"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:icon="@drawable/ic_attach_file_white_24dp"
+        android:title="@string/action_attach"
+        android:onClick="notImplemented"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="@string/action_viewcontact"
+        android:onClick="notImplemented"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/action_media"
+        android:onClick="notImplemented"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/action_search"
+        android:onClick="notImplemented"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/action_mute"
+        android:onClick="notImplemented"
+        app:showAsAction="never"/>
+
+    <group android:id="@+id/group_convert_to_group">
+        <item
+            android:id="@+id/action_convert_to_group"
+            android:title="@string/action_convert_to_group"
+            android:onClick="onConvertToGroupClick"
+            app:showAsAction="never"/>
+    </group>
+
+    <item
+        android:title="@string/action_more"
+        android:onClick="notImplemented"
+        app:showAsAction="never"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_help"-->
+        <!--android:title="@string/action_help"-->
+        <!--android:onClick="onHelpMenuItemClick"-->
+        <!--app:showAsAction="never"/>-->
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contact_list_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ToolbarTheme"
+    app:popupTheme="@style/ToolbarPopupTheme">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginRight="25dp"
+        android:id="@+id/contact_list_toolbar_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/divider_group_creation_vertical"
+            android:layout_centerVertical="true"
+            android:id="@+id/contact_list_toolbar_content_separator" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/contact_list_toolbar_content_action"
+            android:src="@drawable/ic_check_white_24dp1"
+
+            android:layout_gravity="center_vertical"
+            android:onClick="onDoneClick"
+            android:background="@drawable/drawable_toolbar_button_background"
+            android:paddingRight="50dp"
+            android:layout_marginRight="-42dp"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="DONE"
+            android:id="@+id/contact_list_toolbar_content_actiondesc"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:onClick="onDoneClick"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="35dp"
+            android:layout_marginLeft="-40dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/drawable_toolbar_button_background"
+            android:layout_marginRight="-10dp" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">WhatsAppPlus</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_newmessage">New message</string>
+    <string name="tag_chat_id">chat_id</string>
+    <string name="tag_checkbox_id">checkbox_id</string>
+    <string name="contact_selection_text">ADD GROUP PARTICIPANTS</string>
+    <string name="contact_selection_hint">Type contact name…</string>
+    <string name="description_add_contact_button">add contacts button</string>
+    <string name="action_more">More</string>
+    <string name="action_mute">Mute</string>
+    <string name="action_media">Media</string>
+    <string name="action_viewcontact">View contact</string>
+    <string name="action_attach">Attach</string>
+    <string name="action_call">Call</string>
+    <string name="action_convert_to_group">Convert to group</string>
+    <string name="tag_selected">selected</string>
+    <string name="tag_remove_contact">remove</string>
+    <string name="action_star">Favorite</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_forward">Forward</string>
+    <string name="tag_chat_message">chat_message</string>
+    <string name="action_newgroup">New group</string>
+    <string name="eval_form_url"><u>http://goo.gl/forms/rD5WV6bkiCUBtOQu1</u></string>
+    <string name="email1"><u>ladek@in.tum.de</u></string>
+    <string name="email2"><u>mkratzer@mytum.de</u></string>
+    <string name="pref_whatsapp_plus_features">WhatsAppPlus Features</string>
+    <string name="pref_whatsapp_plus_features_summ">When selected, new group features will become enabled.</string>
+</resources>

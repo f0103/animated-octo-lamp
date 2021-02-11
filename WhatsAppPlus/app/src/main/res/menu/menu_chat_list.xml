@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:icon="@drawable/ic_search_white_24dp"
+            android:title="@string/action_search"
+            android:onClick="notImplemented"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:icon="@drawable/ic_comment_white_24dp"
+            android:title="@string/action_newmessage"
+            android:onClick="notImplemented"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:title="@string/action_newgroup"
+            android:onClick="onNewGroupClick"
+            app:showAsAction="never"/>
+
+        <item
+            android:title="@string/action_settings"
+            android:onClick="onSettingsClick"
+            app:showAsAction="never"/>
+
+        <!--<item-->
+            <!--android:id="@+id/action_help"-->
+            <!--android:title="@string/action_help"-->
+            <!--android:onClick="onHelpMenuItemClick"-->
+            <!--app:showAsAction="never"/>-->
+</menu>
